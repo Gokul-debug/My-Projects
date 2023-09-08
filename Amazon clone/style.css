@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.nav-bar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 1.5px solid transparent !important;
+}
+.border:hover{
+    border: 1.5px solid white !important;
+}
+
+/**box2**/
+ 
+.add-first{
+    color: #cccccc;
+    margin-left: 15px;
+    font-size: 0.8rem;
+
+}
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/*box 3*/
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blueviolet;
+    width: 620px;
+    height: 30px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 51px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    text-align: center;
+}
+.search-inp{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 166, 0);
+    color: black;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+/*box 4*/
+span{
+    font-size: 0.7rem;
+}
+.account{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.dropdown{
+    background-color: black;
+    color: white;
+    border: none;
+    text-align: center;
+    align-items: center;
+
+}
+/*box 4*/
+.rtn{
+    font-size: 0.7rem;
+}
+.order{
+    font-size: 1rem;
+    font-weight: 700;
+}
+/*box 4*/
+.cart i{
+    font-size:25px;
+}
+.cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/*pannel*/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-all{
+    margin-left: 0x;
+}
+.panel-items p{
+    display: inline;
+    margin-left: 18px;
+    
+}
+.panel-items{
+    width: 70%;
+    font-size: 0.8rem;
+}
+.shopdeal{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/* hero se*/
+.hero-sec{
+    background-image: url("hero_image.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    width: 90%;
+    margin-bottom: 25px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0 15px;
+    margin-top: 6px;
+}
+.box-img{
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+    
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color: #007185;
+}
+/* footer/*/
+.back{
+ background-color: #37475a;
+ height: 50px;
+ font-size: 0.85rem;
+ font-weight: 700;
+ color: white;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+}
+footer{
+    margin-top: 16px;
+}
+
+.panel-2{
+    background-color: #222f3d;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.panel-3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-1{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.language{
+    margin-left: 40px;
+    height: 20px;
+    
+    
+   
+    
+}
+.lan-drop{
+    color: white;
+    background-color:#222f3d ;
+    
+
+}
+.pannel-4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    
+}
+.pages{
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 25px;
+}
+.copywrite{
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+
+
